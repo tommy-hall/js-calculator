@@ -1,0 +1,97 @@
+/* Background colour behind calculator */
+ body{
+   background-color: #EEAD0E  ;
+   margin-top: 80px;
+ }
+
+  /* Back-bone of the calculator */
+ #calculator{
+   background-color: darkblue;
+   width: 350px;
+   margin: auto;
+   border: 10px solid black;
+   border-radius: 30px;
+   padding-top: 25px;
+   padding-bottom: 5px;
+   font-family: Arial, sans-serif;
+ }
+
+  /* Name of the calculator */
+ #calcName {
+    height: 50px;
+    padding-top: 10px;
+    color: white;
+    margin: auto;
+    text-align: center;
+
+  }
+ 
+ /* Screen displaying the Amount */
+ #display{
+   width: 286px;
+   height: auto;
+   background-color: white;
+   color: black;
+   margin: auto;
+   text-align: right;
+   font-family: digital, Arial, sans-serif;
+ }
+ 
+ /* The actual number(s) being displayed */
+ #mainScreen{
+   font-size: 70px;
+   padding: 15px;
+   max-width: 275px;
+   overflow-x: scroll;
+ }
+ 
+ #mainScreen::-webkit-scrollbar{
+     background-color: white;
+ }
+ 
+ #mainScreen::-webkit-scrollbar-thumb{
+     background-color: #233D2C;
+ }
+ 
+  /* Smaller digit being displayed, i.e. Welcome! */
+ #minorScreen{
+   height: 24px;
+   font-size: 15px;
+   padding: 15px;
+   max-width: 275px;
+   overflow: hidden;
+ }
+ 
+ /* KeyPad with all the numbers and digits */
+ #keypad {
+   text-align: center;
+   width: 288px;
+   height: 380px;
+   margin: auto;
+   padding-top: 20px;
+   text-align: center;
+   font-size: 0; /* removes gap between elements */
+ }
+ 
+  /* The actual buttons and numbers etc*/
+ .button {
+   display: inline-block;
+   background-color: lightgreen;
+   border-radius: 0px;
+   color: black;
+   margin: 10px 1px 10px 1px;
+   width: 70px;
+   font-size: 30px;
+   line-height: 50px;
+   font-family: 'Lakki Reddy', cursive;
+ }
+ 
+ /* Equals sign */
+ #equals{
+   width: 142px;
+   background-color: red;
+   color: white;
+ }
+ 
+
+ 

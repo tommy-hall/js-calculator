@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calc.css">
+    <script src="calc.js"></script>
+  </head>
+  <body>
+    <!--<div id="title"></div>-->
+    
+    <div id="calculator">
+            <h2 id="calcName">Stylish Calculator</h2>
+      <div id="display">
+        <div id="mainScreen">0</div>
+        <div id="minorScreen">Welcome to the Modern Era!</div>
+      </div>
+      <div id="keypad">
+        <form>
+          <div class="button" onclick="buttonPressed('ac')">AC</div>
+          <div class="button" onclick="buttonPressed('ce')">CE</div>
+          <div class="button">%</div> <!-- onclick="buttonPressed('%')"-->
+          <div class="button" onclick="buttonPressed('/')">/</div>
+          <div class="button" onclick="buttonPressed('1')">1</div>
+          <div class="button" onclick="buttonPressed('2')">2</div>
+          <div class="button" onclick="buttonPressed('3')">3</div>
+          <div class="button" onclick="buttonPressed('*')">x</div>
+          <div class="button" onclick="buttonPressed('4')">4</div>
+          <div class="button" onclick="buttonPressed('5')">5</div>
+          <div class="button" onclick="buttonPressed('6')">6</div>
+          <div class="button" onclick="buttonPressed('-')">-</div>
+          <div class="button" onclick="buttonPressed('7')">7</div>
+          <div class="button" onclick="buttonPressed('8')">8</div>
+          <div class="button" onclick="buttonPressed('9')">9</div>
+          <div class="button" onclick="buttonPressed('+')">+</div>
+          <div class="button" onclick="buttonPressed('.')">.</div>
+          <div class="button" onclick="buttonPressed('0')">0</div>
+          <div class="button" id="equals" onclick="buttonPressed('=')">=</div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
